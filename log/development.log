@@ -2825,3 +2825,578 @@ Processing by PostsController#show as HTML
   [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
   Rendered posts/_nav.html.erb (1.8ms)
 Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:18:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.8ms)
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007ffdb759f288>):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `new'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:24:05 -0500
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 3.0ms)
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007ffdb727f4e0>):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `new'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:29:55 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (98.8ms)
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (Missing partial users/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/apprentice/Desktop/solo-ghwilley/rails_blog/app/views"
+):
+    22:   <% end %>
+    23: 
+    24: 
+    25:   <%= render "nav" %>
+    26:   <%= yield %>
+    27: </body>
+    28: </html>
+  app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1662455930804162902_70363853802320'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:32:23 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial users/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/apprentice/Desktop/solo-ghwilley/rails_blog/app/views"
+):
+    22:   <% end %>
+    23: 
+    24: 
+    25:   <%= render "nav" %>
+    26:   <%= yield %>
+    27: </body>
+    28: </html>
+  app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1662455930804162902_70363853802320'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:32:38 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial users/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/apprentice/Desktop/solo-ghwilley/rails_blog/app/views"
+):
+    22:   <% end %>
+    23: 
+    24: 
+    25:   <%= render "nav" %>
+    26:   <%= yield %>
+    27: </body>
+    28: </html>
+  app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1662455930804162902_70363853802320'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:32:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial users/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/apprentice/Desktop/solo-ghwilley/rails_blog/app/views"
+):
+    22:   <% end %>
+    23: 
+    24: 
+    25:   <%= render "nav" %>
+    26:   <%= yield %>
+    27: </body>
+    28: </html>
+  app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1662455930804162902_70363853802320'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:33:59 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial users/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/apprentice/Desktop/solo-ghwilley/rails_blog/app/views"
+):
+    22:   <% end %>
+    23: 
+    24: 
+    25:   <!-- <%= render "nav" %> -->
+    26:   <%= yield %>
+    27: </body>
+    28: </html>
+  app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1662455930804162902_70363856616900'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.8ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:34:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b7c53447f7c8d72cffc82d9c62fd692fb78e3a1aa38f19a4e07d47f44c9785a4.css?body=1" for ::1 at 2016-06-12 16:34:10 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-12 16:34:10 -0500
+
+
+Started GET "/" for ::1 at 2016-06-12 16:34:18 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-06-12 16:36:59 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ArbQ7KVO3i8akXScRTRtlyJyjjwCXoGZYBzTfqT3HrFubDsjB7YC65qMPV4oo6AlNgZ50tntZmlZJM5ad1b4Gg==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.7ms)
+  [1m[36m (3.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePosts (20160612163513)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "title" character varying, "content" text, "category_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160612163513"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateCategories (20160612164228)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "categories" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160612164228"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUsers (20160612205704)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "password_hash" character varying, "password_salt" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160612205704"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'categories'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Happy Day"], ["created_at", "2016-06-12 21:39:33.647528"], ["updated_at", "2016-06-12 21:39:33.647528"]]
+  [1m[35m (146.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Work stuff"], ["created_at", "2016-06-12 21:39:33.801622"], ["updated_at", "2016-06-12 21:39:33.801622"]]
+  [1m[36m (26.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "BBQ"], ["created_at", "2016-06-12 21:39:33.830916"], ["updated_at", "2016-06-12 21:39:33.830916"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Video Juegos"], ["created_at", "2016-06-12 21:39:33.833711"], ["updated_at", "2016-06-12 21:39:33.833711"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2016-06-12 16:41:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 355ms (Views: 307.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users" for ::1 at 2016-06-12 16:41:43 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urk+VmU8sZS7tYPIb0G6wVxdS2YMcvyzDaqFq7CRwrzWY9WZx8RtUDuoygoC1ndzSCm8iNfBG0M0kpiPYzAkFw==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.2ms)
+
+
+Started POST "/users" for ::1 at 2016-06-12 16:42:34 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urk+VmU8sZS7tYPIb0G6wVxdS2YMcvyzDaqFq7CRwrzWY9WZx8RtUDuoygoC1ndzSCm8iNfBG0M0kpiPYzAkFw==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "password_salt", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "a@a.com"], ["password_salt", "$2a$10$b2k1Hj5F8UwTMgcZKIfH4e"], ["password_hash", "$2a$10$b2k1Hj5F8UwTMgcZKIfH4ea5BNyRGujqJbqgEfFXpyKR6NEaIBtBS"], ["created_at", "2016-06-12 21:42:34.971766"], ["updated_at", "2016-06-12 21:42:34.971766"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 134ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:42:34 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b7c53447f7c8d72cffc82d9c62fd692fb78e3a1aa38f19a4e07d47f44c9785a4.css?body=1" for ::1 at 2016-06-12 16:42:35 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-12 16:42:35 -0500
+
+
+Started POST "/users" for ::1 at 2016-06-12 16:42:42 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lzJ3wZ+eYL3bOUIlHBfh2darhzHIC4TlyzYj6Sxjiaj76JwOPWa8eVskC+dxgCxrwt9w3xO4YxXyDj7N/8JvAw==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for ::1 at 2016-06-12 16:42:52 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3J47qX4cfDyX8N8V0n+a+Fhpj/JMRFkRmitGT/7z/jDqJMhBwCtNHJCir463jPZ9RVR0RKC9pR/ULA97FopUw==", "user"=>{"email"=>"b@b.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b@b.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_salt", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "b@b.com"], ["password_salt", "$2a$10$v2iAQ.ByXVuPb95bZKqnlO"], ["password_hash", "$2a$10$v2iAQ.ByXVuPb95bZKqnlO.Tiu.3h6t8puTMt9GHod7D0LTM5XPYW"], ["created_at", "2016-06-12 21:42:52.185094"], ["updated_at", "2016-06-12 21:42:52.185094"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:42:52 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for ::1 at 2016-06-12 16:43:22 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2016-06-12 16:43:30 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JtTuZ78HYcFPmyjzgXGy9kQW+vqj2nUWsxt4Kb/CHiRKDgWoHf+9Bc+GYTHs5n9EUGINFHhpkuaKI2UNbGP4jw==", "email"=>"a@a.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "a@a.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:43:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:44:43 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-12 16:44:43 -0500
+
+
+Started GET "/assets/application.self-b7c53447f7c8d72cffc82d9c62fd692fb78e3a1aa38f19a4e07d47f44c9785a4.css?body=1" for ::1 at 2016-06-12 16:44:43 -0500
+
+
+Started GET "/" for ::1 at 2016-06-12 16:45:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:46:57 -0500
+
+ArgumentError (Invalid route name, already in use: 'root' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  config/routes.rb:9:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p647/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:47:08 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 29ms (Views: 20.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.self-b7c53447f7c8d72cffc82d9c62fd692fb78e3a1aa38f19a4e07d47f44c9785a4.css?body=1" for ::1 at 2016-06-12 16:47:08 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-12 16:47:08 -0500
+
+
+Started GET "/log_out" for ::1 at 2016-06-12 16:47:12 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:47:12 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/log_in" for ::1 at 2016-06-12 16:47:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2016-06-12 16:47:15 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for ::1 at 2016-06-12 16:48:58 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2016-06-12 16:49:03 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RG9GmbhvHkYehD+pctots5IvIY5M1FwrlVJ5FVF8U0Eota1WGpfCgp6ZdmsfTeABhlvWYJdnu9usamQxgt216g==", "email"=>"a@a.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "a@a.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-12 16:49:03 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-06-12 16:49:05 -0500
+Processing by PostsController#new as HTML
+  Rendered posts/_error_message.html.erb (0.6ms)
+  [1m[36mCategory Load (0.9ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered posts/_form.html.erb (57.9ms)
+  Rendered posts/new.html.erb within layouts/application (59.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 72ms (Views: 64.3ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/posts" for ::1 at 2016-06-12 16:49:28 -0500
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G5Gx2V4smHLe97CbR+gkJg1fR5o6rBo/fDELWDxSc7R3S1oW/NREtl7q+Vkqf+mUGSuwdOEf/c9FCRZ87/OVHw==", "post"=>{"category_id"=>"2", "title"=>"hard drive", "content"=>"Egg salad is weak lllol Waddup Waddup"}, "commit"=>"Create Post"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "posts" ("title", "content", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["title", "hard drive"], ["content", "Egg salad is weak lllol Waddup Waddup"], ["category_id", 2], ["created_at", "2016-06-12 21:49:28.113385"], ["updated_at", "2016-06-12 21:49:28.113385"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 22ms (ActiveRecord: 16.4ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-06-12 16:49:28 -0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-06-12 16:52:28 -0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-b7c53447f7c8d72cffc82d9c62fd692fb78e3a1aa38f19a4e07d47f44c9785a4.css?body=1" for ::1 at 2016-06-12 16:52:28 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-12 16:52:28 -0500
+
+
+Started GET "/" for ::1 at 2016-06-12 16:52:30 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.5ms)
