@@ -1,6 +1,8 @@
 <div>
   <h1>Waddup Waddup</h1>
-  <%= link_to 'New Post', controller: "posts", action: "new" %>
+  <% if current_user %>
+    <%= link_to 'New Post', controller: "posts", action: "new" %>
+  <% end %>
   <% @posts.each do |post| %>
     <h1><%= link_to "#{post.title}" %></h1>
     <p><%= post.content %></p>
