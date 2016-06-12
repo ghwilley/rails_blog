@@ -1,0 +1,7 @@
+<div>
+
+  <% @posts.each do |post| %>
+    <h1>Waddup Waddup <%= link_to "post.title", post %></h1>
+    <p><%= post.content %></p>
+  <% end %>
+</div>

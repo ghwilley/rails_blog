@@ -1,0 +1,10 @@
+<% if @post.errors.any? %>
+  <div>
+    <p><%= pluralize(@post.errors.count, "error") %> prevented your shit from getting all saved and such.</p>
+    <ul>
+      <% @post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
